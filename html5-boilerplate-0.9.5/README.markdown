@@ -4,6 +4,11 @@
 
 ### v.0.9.5 : October 25th, 2010
 
+My Project:
+
+<ul>
+<li>I want to use this template to learning bootstrap.
+</ul>
 Major changes:
 
 <ul>
