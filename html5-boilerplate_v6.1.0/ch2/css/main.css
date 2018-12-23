@@ -9567,6 +9567,7 @@ button.close {
   max-width: 100%;
   height: auto;
   line-height: 1;
+  min-width: 100%;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
