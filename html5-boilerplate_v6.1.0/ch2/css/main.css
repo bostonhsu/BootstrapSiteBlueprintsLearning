@@ -9549,6 +9549,9 @@ button.close {
 }
 .carousel {
   position: relative;
+  padding-top: 4px;
+  padding-bottom: 28px;
+  background-color: #ccc;
 }
 .carousel-inner {
   position: relative;
@@ -9741,9 +9744,6 @@ button.close {
     left: 20%;
     right: 20%;
     padding-bottom: 30px;
-  }
-  .carousel-indicators {
-    bottom: 20px;
   }
 }
 .clearfix:before,
