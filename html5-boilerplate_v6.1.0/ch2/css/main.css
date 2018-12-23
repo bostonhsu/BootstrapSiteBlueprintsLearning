@@ -9560,6 +9560,7 @@ button.close {
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
+  max-height: 640px;
 }
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
