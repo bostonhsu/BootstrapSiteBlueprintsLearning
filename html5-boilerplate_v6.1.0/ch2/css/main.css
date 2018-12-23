@@ -9570,6 +9570,18 @@ button.close {
   line-height: 1;
   min-width: 100%;
 }
+@media (min-width: 992px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin-top: -40px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin-top: -60px;
+  }
+}
 .carousel-inner > .active,
 .carousel-inner > .next,
 .carousel-inner > .prev {
