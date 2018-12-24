@@ -9745,6 +9745,12 @@ button.close {
   padding-top: 20px;
   padding-bottom: 40px;
 }
+@media (max-width: 767px) {
+  .page-contents [class*="col-"] {
+    clear: both;
+    padding-bottom: 40px;
+  }
+}
 .clearfix:before,
 .clearfix:after {
   content: " ";
