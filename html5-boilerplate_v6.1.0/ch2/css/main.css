@@ -9698,20 +9698,15 @@ button.close {
 }
 .carousel-indicators li {
   display: inline-block;
-  width: 10px;
-  height: 10px;
-  margin: 1px;
+  width: 18px;
+  height: 18px;
+  background-color: #aeaeae;
   text-indent: -999px;
-  border: 1px solid transparent;
   border-radius: 10px;
   cursor: pointer;
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
 }
+.carousel-indicators li:hover,
 .carousel-indicators .active {
-  margin: 0;
-  width: 12px;
-  height: 12px;
   background-color: #ededed;
 }
 .carousel-caption {
