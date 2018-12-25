@@ -23,7 +23,12 @@ header[role="banner"] {
 	  			padding: 8px 12px;
 	  			&:hover {
 	  				text-decoration: none;
-	  			}
+                  }
+                  @media (max-width: (@grid-float-breakpoint - 1)) {
+                      span {
+                          .sr-only();
+                      }
+                  }
 	  		}
 	  	}
 	  }

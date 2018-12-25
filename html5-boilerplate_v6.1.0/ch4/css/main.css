@@ -6289,6 +6289,18 @@ header[role="banner"] .utility-nav > ul > li > a {
 header[role="banner"] .utility-nav > ul > li > a:hover {
   text-decoration: none;
 }
+@media (max-width: 991px) {
+  header[role="banner"] .utility-nav > ul > li > a span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
+}
 footer[role="contentinfo"] {
   padding-top: 24px;
   padding-bottom: 24px;
