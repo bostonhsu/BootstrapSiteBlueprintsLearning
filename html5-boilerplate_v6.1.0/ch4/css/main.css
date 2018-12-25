@@ -1734,15 +1734,15 @@ fieldset[disabled] .checkbox-inline {
   cursor: not-allowed;
 }
 .input-sm {
-  height: 30px;
+  height: 31px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px;
 }
 select.input-sm {
-  height: 30px;
-  line-height: 30px;
+  height: 31px;
+  line-height: 31px;
 }
 textarea.input-sm {
   height: auto;
@@ -1929,7 +1929,7 @@ textarea.input-lg {
 }
 .btn:hover,
 .btn:focus {
-  color: #333;
+  color: #777;
   text-decoration: none;
 }
 .btn:active,
@@ -1950,18 +1950,18 @@ fieldset[disabled] .btn {
   box-shadow: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #777;
+  background-color: #ededed;
+  border-color: #e0e0e0;
 }
 .btn-default:hover,
 .btn-default:focus,
 .btn-default:active,
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
-  color: #333;
-  background-color: #ebebeb;
-  border-color: #adadad;
+  color: #777;
+  background-color: #d9d9d9;
+  border-color: #c2c2c2;
 }
 .btn-default:active,
 .btn-default.active,
@@ -1983,8 +1983,8 @@ fieldset[disabled] .btn-default:active,
 .btn-default.disabled.active,
 .btn-default[disabled].active,
 fieldset[disabled] .btn-default.active {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #ededed;
+  border-color: #e0e0e0;
 }
 .btn-primary {
   color: #fff;
@@ -2213,7 +2213,7 @@ fieldset[disabled] .btn-link:focus {
 .btn-sm,
 .btn-xs {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -3722,7 +3722,7 @@ fieldset[disabled] .btn-feature.active {
 .dropdown-header {
   display: block;
   padding: 3px 20px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.42857143;
   color: #aeaeae;
 }
@@ -3757,7 +3757,7 @@ fieldset[disabled] .btn-feature.active {
   }
 }
 .btn-default .caret {
-  border-top-color: #333;
+  border-top-color: #777;
 }
 .btn-primary .caret,
 .btn-success .caret,
@@ -3767,7 +3767,7 @@ fieldset[disabled] .btn-feature.active {
   border-top-color: #fff;
 }
 .dropup .btn-default .caret {
-  border-bottom-color: #333;
+  border-bottom-color: #777;
 }
 .dropup .btn-primary .caret,
 .dropup .btn-success .caret,
@@ -3872,14 +3872,14 @@ fieldset[disabled] .btn-feature.active {
 }
 .btn-group-xs > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px;
   padding: 1px 5px;
 }
 .btn-group-sm > .btn {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px;
 }
@@ -4029,17 +4029,17 @@ textarea.input-group-lg > .input-group-btn > .btn {
 .input-group-sm > .form-control,
 .input-group-sm > .input-group-addon,
 .input-group-sm > .input-group-btn > .btn {
-  height: 30px;
+  height: 31px;
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   border-radius: 3px;
 }
 select.input-group-sm > .form-control,
 select.input-group-sm > .input-group-addon,
 select.input-group-sm > .input-group-btn > .btn {
-  height: 30px;
-  line-height: 30px;
+  height: 31px;
+  line-height: 31px;
 }
 textarea.input-group-sm > .form-control,
 textarea.input-group-sm > .input-group-addon,
@@ -4075,7 +4075,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .input-group-addon.input-sm {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
   border-radius: 3px;
 }
 .input-group-addon.input-lg {
@@ -4983,7 +4983,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .pagination-sm > li > a,
 .pagination-sm > li > span {
   padding: 5px 10px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
@@ -5120,7 +5120,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: inline-block;
   min-width: 10px;
   padding: 3px 7px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: bold;
   color: #fff;
   line-height: 1;
@@ -5331,7 +5331,7 @@ a.thumbnail.active {
   float: left;
   width: 0%;
   height: 100%;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 20px;
   color: #fff;
   text-align: center;
@@ -5906,7 +5906,7 @@ button.close {
   z-index: 1030;
   display: block;
   visibility: visible;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.4;
   opacity: 0;
   filter: alpha(opacity=0);
@@ -6473,7 +6473,7 @@ main .content-primary {
   font-size: 17px;
 }
 main .content-tertiary {
-  font-size: 12px;
+  font-size: 13px;
 }
 @media (max-width: 768px) {
   main [class*="col-"] {

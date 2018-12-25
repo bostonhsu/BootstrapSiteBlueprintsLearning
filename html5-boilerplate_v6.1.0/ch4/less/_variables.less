@@ -49,7 +49,7 @@
 
 @font-size-base:          14px;
 @font-size-large:         ceil(@font-size-base * 1.15); // edited
-@font-size-small:         ceil(@font-size-base * 0.85); // ~12px
+@font-size-small:         ceil(@font-size-base * 0.90); // ~12px
 
 @font-size-h1:            floor(@font-size-base * 2.6); // ~36px
 @font-size-h2:            floor(@font-size-base * 2.15); // ~30px
@@ -119,9 +119,9 @@
 
 @btn-font-weight:                normal;
 
-@btn-default-color:              #333;
-@btn-default-bg:                 #fff;
-@btn-default-border:             #ccc;
+@btn-default-color:              @gray;
+@btn-default-bg:                 @gray-lightest;
+@btn-default-border:             darken(@btn-default-bg, 5%);
 
 @btn-primary-color:              #fff;
 @btn-primary-bg:                 @brand-primary;
