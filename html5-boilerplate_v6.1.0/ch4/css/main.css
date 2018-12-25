@@ -4352,7 +4352,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 992px) {
   .navbar {
-    border-radius: 4px;
+    border-radius: 0;
   }
 }
 .navbar-header:before,
@@ -6380,6 +6380,11 @@ header[role="banner"] .utility-nav > ul > li > a:hover {
   }
   .navbar-default .navbar-link:hover {
     color: #fff;
+  }
+  .navbar-default .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-size: 82%;
+    font-weight: bold;
   }
 }
 @media (min-width: 992px) and (max-width: 767px) {
