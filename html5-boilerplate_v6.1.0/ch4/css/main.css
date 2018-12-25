@@ -6300,6 +6300,10 @@ header[role="banner"] .utility-nav > ul > li > a:hover {
     clip: rect(0, 0, 0, 0);
     border: 0;
   }
+  header[role="banner"] .utility-nav > ul > li > a .icon {
+    font-size: 2em;
+    line-height: 1.2;
+  }
 }
 footer[role="contentinfo"] {
   padding-top: 24px;
