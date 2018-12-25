@@ -38,3 +38,10 @@ header[role="banner"] {
 	  }
 	}
 }
+
+// Apply .navbar-inverse styles to the expanded navbar
+@media (min-width: @grid-float-breakpoint) {
+	.navbar-default {
+		.navbar-inverse();
+	}
+}
