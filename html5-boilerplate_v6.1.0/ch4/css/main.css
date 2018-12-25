@@ -2234,6 +2234,43 @@ input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
+.btn-feature {
+  color: #fff;
+  background-color: #c60004;
+  border-color: #ad0003;
+}
+.btn-feature:hover,
+.btn-feature:focus,
+.btn-feature:active,
+.btn-feature.active,
+.open .dropdown-toggle.btn-feature {
+  color: #fff;
+  background-color: #9d0003;
+  border-color: #6f0002;
+}
+.btn-feature:active,
+.btn-feature.active,
+.open .dropdown-toggle.btn-feature {
+  background-image: none;
+}
+.btn-feature.disabled,
+.btn-feature[disabled],
+fieldset[disabled] .btn-feature,
+.btn-feature.disabled:hover,
+.btn-feature[disabled]:hover,
+fieldset[disabled] .btn-feature:hover,
+.btn-feature.disabled:focus,
+.btn-feature[disabled]:focus,
+fieldset[disabled] .btn-feature:focus,
+.btn-feature.disabled:active,
+.btn-feature[disabled]:active,
+fieldset[disabled] .btn-feature:active,
+.btn-feature.disabled.active,
+.btn-feature[disabled].active,
+fieldset[disabled] .btn-feature.active {
+  background-color: #c60004;
+  border-color: #ad0003;
+}
 .fade {
   opacity: 0;
   -webkit-transition: opacity 0.15s linear;
